@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = FormasticFactoryGirlStrategy::VERSION
   s.authors     = [""]
   s.email       = ["sadaf2605@gmail.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of FormasticFactoryGirlStrategy."
-  s.description = "TODO: Description of FormasticFactoryGirlStrategy."
+#  s.homepage    = "TODO"
+  s.summary     = "Summary of FormasticFactoryGirlStrategy."
+#  s.description = "TODO: Description of FormasticFactoryGirlStrategy."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]

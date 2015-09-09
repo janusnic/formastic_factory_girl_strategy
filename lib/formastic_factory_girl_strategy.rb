@@ -1,4 +1,6 @@
 module FormasticFactoryGirlStrategy
+require "factory_girl"
+
 class NestedAttributesStrategy
   # Author: Sadaf Noor (email@sadafnoor.com)
   
@@ -89,6 +91,7 @@ class NestedAttributesStrategy
 
 end
 
-FactoryGirl.register_strategy(:nested_attributes, NestedAttributesStrategy)
+puts "registering 'nested_attributes_for' to FactoryGirl"
+FactoryGirl.register_strategy(:nested_attributes_for, NestedAttributesStrategy)
 
 end
