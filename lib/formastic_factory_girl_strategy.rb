@@ -27,7 +27,7 @@ module FormasticFactoryGirlStrategy
     #   FactoryGirl.nested_attributes(:model_name)
     #   
     
-    include "FormasticFactoryGirlStrategy"
+    include FormasticFactoryGirlStrategy
     def initialize()
 
       @@except=[]
