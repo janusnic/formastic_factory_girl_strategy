@@ -12,6 +12,7 @@ gemspec
 
 # To use a debugger
 # gem 'byebug', group: [:development, :test]
-gem 'rails', '4.2.0'
+
+gem 'rails', '~> 4.2.0'
 gem 'formtastic', '~> 3.0'
 gem 'factory_girl'
