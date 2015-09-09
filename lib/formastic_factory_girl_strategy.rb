@@ -2,6 +2,7 @@ module FormasticFactoryGirlStrategy
   require "factory_girl"
   @@except=[]
   @@include_id=[]
+
   def self.except(m)
      @@except <<m
   end
@@ -28,12 +29,6 @@ module FormasticFactoryGirlStrategy
     #   
     
     include FormasticFactoryGirlStrategy
-    def initialize()
-
-      @@except=[]
-      @@include_id=[]
-    end
-
 
     def association(runner)
       runner.run
