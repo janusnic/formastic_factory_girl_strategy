@@ -91,7 +91,7 @@ class NestedAttributesStrategy
 
 end
 
-puts "registering 'nested_attributes_for' to FactoryGirl"
-FactoryGirl.register_strategy(:nested_attributes_for, NestedAttributesStrategy)
+puts "registered as 'FactoryGirl.nested_attributes(:factory_name)'"
+FactoryGirl.register_strategy(:nested_attributes, NestedAttributesStrategy)
 
 end

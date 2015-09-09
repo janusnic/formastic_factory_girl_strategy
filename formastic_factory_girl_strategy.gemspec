@@ -7,11 +7,11 @@ require "formastic_factory_girl_strategy/version"
 Gem::Specification.new do |s|
   s.name        = "formastic_factory_girl_strategy"
   s.version     = FormasticFactoryGirlStrategy::VERSION
-  s.authors     = [""]
+  s.authors     = ["Sadaf Noor"]
   s.email       = ["sadaf2605@gmail.com"]
-#  s.homepage    = "TODO"
-  s.summary     = "Summary of FormasticFactoryGirlStrategy."
-#  s.description = "TODO: Description of FormasticFactoryGirlStrategy."
+  s.homepage    = "https://github.com/sadaf2605/formastic_factory_girl_strategy"
+  s.summary     = "Using this plugin you can use Factory Girl to test your formastic forms of active admin ."
+#  s.description = "It provides you support for formastic forms like that of active admin by providing extra methods and strategy of Factory Girl."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
