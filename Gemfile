@@ -13,6 +13,6 @@ source 'https://rubygems.org'
 # To use a debugger
 # gem 'byebug', group: [:development, :test]
 
-gem 'rails', '<4.2.0'
+gem 'rails', '<=4.2.0'
 gem 'formtastic'
 gem 'factory_girl'
