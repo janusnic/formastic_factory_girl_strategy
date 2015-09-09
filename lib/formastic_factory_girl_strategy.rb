@@ -2,11 +2,11 @@ module FormasticFactoryGirlStrategy
   require "factory_girl"
   @@except=[]
   @@include_id=[]
-  def except(m)
+  def self.except(m)
      @@except <<m
   end
 
-  def include(i)
+  def self.include(i)
      @@include_id<<i
   end 
 
